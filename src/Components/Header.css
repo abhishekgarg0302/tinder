@@ -1,0 +1,20 @@
+.tinder-header{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tinder-header:onScroll{
+    position: fixed;
+    border-bottom: 1px solid grey;
+}
+.tinder-header img{
+    height:50px;
+    width:50px;
+    /* padding:10px; */
+    object-fit: contain;
+}
+
+/* .header-icons{
+     padding:10px; 
+} */
